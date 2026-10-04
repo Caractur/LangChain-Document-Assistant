@@ -1,0 +1,12 @@
+# Secrets
+.env
+
+# Your own documents and the vector store built from them
+documents/*
+!documents/.gitkeep
+chroma_db/
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
